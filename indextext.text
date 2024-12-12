@@ -1,0 +1,377 @@
+<!--============== END OF HEADER =============-->
+
+
+
+
+
+
+<section class="categories">
+  <div class="container categories__container">
+    <div class="categories__left">
+      <h1>Categories</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit eveniet impedit minus, facere dicta, aut nemo natus illo eligendi dolore, blanditiis nesciunt nulla magni. Temporibus facere reiciendis perferendis quia distinctio.
+      </p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  
+  
+  
+    <div class="categories__right">
+      
+      <article class="category">
+        <span class="category__icon"><i class="uil uil-briefcase-alt"></i></span>
+        <h5>Placement News</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dicta.</p>
+      </article>
+
+      <article class="category">
+        <span class="category__icon"><i class="uil uil-football"></i></span>
+        <h5>Sports News</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dicta.</p>
+      </article>
+
+      <article class="category">
+        <span class="category__icon"><i class="uil uil-newspaper"></i></span>
+        <h5>Campus News</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dicta.</p>
+      </article>
+
+      <article class="category">
+        <span class="category__icon"><i class="uil uil-credit-card-search"></i></span>
+        <h5>Higher-studies and Research</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dicta.</p>
+      </article>
+
+      <article class="category">
+        <span class="category__icon"><i class="uil uil-book-reader"></i></span>
+        <h5>Academic updates</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dicta.</p>
+      </article>
+
+      <article class="category">
+        <span class="category__icon"><i class="uil uil-music"></i></span>
+        <h5>Cultural and Club News</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dicta.</p>
+      </article>
+
+    </div>
+  </div>
+
+</section>
+
+<!--==========END OF CATEGORIES SECTION==========-->
+
+<section class="news">
+  <h2>Life at VIT Bhopal</h2>
+  <div class="container news__container">
+
+    <article class="news">
+      <div class="news-image">
+        <img src="./images/VITB-Background.jpeg">
+      </div>
+      <div class="news__info">
+        <h4>Infrastructure</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consectetur amet! Consequuntur quidem dicta perferendis facere.
+        </p>
+      </div>
+     
+      <a href="news.html" class="btn btn-primary">Learn more</a>
+    </article>
+
+    <article class="news">
+      <div class="news-image">
+        <img src="./images/Stat-new-1-1.jpeg">
+      </div>
+      <div class="news__info">
+        <h4>Placements and Internships</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consectetur amet! Consequuntur quidem dicta perferendis facere.
+      </p>
+      </div>
+      
+      <a href="news.html" class="btn btn-primary">Learn more</a>
+    </article>
+
+    <article class="news">
+      <div class="news-image">
+        <img src="./images/hq720.jpg">
+      </div>
+      <div class="news__info">
+        <h4>Clubs and Activities</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consectetur amet! Consequuntur quidem dicta perferendis facere.
+      </p>
+      </div>
+      
+      <a href="news.html" class="btn btn-primary">Learn more</a>
+    </article>
+
+  </div>
+
+</section>
+
+<!--========END OF NEWS ==========-->
+
+
+
+
+<section class="faqs">
+  <h2>Frequently Asked Questions</h2>
+  <div class="container faqs__container">
+    <article class="faq">
+      <div class="faq__icon"><i class="uil uil-plus"></i></div>
+      <div class="question__answer">
+        <h4>What courses does VIT Bhopal offer?</h4>
+        <p>VIT Bhopal offers undergraduate and postgraduate programs in engineering, computer science, management, and more.</p>
+      </div>
+    </article>
+
+    <article class="faq">
+      <div class="faq__icon"><i class="uil uil-plus"></i></div>
+      <div class="question__answer">
+        <h4>Is VIT Bhopal accredited?</h4>
+        <p>Yes, VIT Bhopal is accredited by NAAC with an 'A' grade. It meets high standards of education and institutional quality.</p>
+      </div>
+    </article>
+
+    <article class="faq">
+      <div class="faq__icon"><i class="uil uil-plus"></i></div>
+      <div class="question__answer">
+        <h4>What is the campus size of VIT Bhopal?</h4>
+        <p>TThe VIT Bhopal campus spans over 250 acres, offering state-of-the-art infrastructure.</p>
+      </div>
+    </article>
+
+    <article class="faq">
+      <div class="faq__icon"><i class="uil uil-plus"></i></div>
+      <div class="question__answer">
+        <h4>Does VIT Bhopal offer hostel facilities?</h4>
+        <p>Yes, both boys' and girls' hostels are available with modern amenities.</p>
+      </div>
+    </article>
+
+    <article class="faq">
+      <div class="faq__icon"><i class="uil uil-plus"></i></div>
+      <div class="question__answer">
+        <h4>What are the placement opportunities at VIT Bhopal?</h4>
+        <p>VIT Bhopal has a strong placement record with top companies offering competitive packages.</p>
+      </div>
+    </article>
+
+    <article class="faq">
+      <div class="faq__icon"><i class="uil uil-plus"></i></div>
+      <div class="question__answer">
+        <h4>Are there extracurricular activities at VIT Bhopal?</h4>
+        <p>Yes, there are various clubs, sports, and cultural events for students.</p>
+      </div>
+    </article>
+
+    <article class="faq">
+      <div class="faq__icon"><i class="uil uil-plus"></i></div>
+      <div class="question__answer">
+        <h4>How is the faculty at VIT Bhopal?</h4>
+        <p>VIT Bhopal has highly qualified and experienced faculty members.</p>
+      </div>
+    </article>
+
+    <article class="faq">
+      <div class="faq__icon"><i class="uil uil-plus"></i></div>
+      <div class="question__answer">
+        <h4>What is the admission process for VIT Bhopal?</h4>
+        <p>Admission is based on VITEEE scores for engineering programs and other entrance tests for specific courses.</p>
+      </div>
+    </article>
+
+
+
+  </div>
+</section>
+
+<!--========END OF FAQS ==========-->
+
+<section class="container testimonials__Container swiper mySwiper">
+  <h2>Students' Testimonials</h2>
+  <div class="swiper-wrapper">
+
+    <article class="testimonial swiper-slide">
+      <div class="avatar">
+        <img src="./images/akshat.jpg">
+
+      </div>
+      <div class="testimonial__info">
+        <h5>Akshat Shukla</h5>
+        <small>Student</small>
+      </div>
+      <div class="testimonial__body">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, deserunt suscipit obcaecati quidem hic at in qui quas veniam laudantium saepe repellendus deleniti dolorem consectetur.</p>
+      </div>
+    </article>
+
+    <article class="testimonial swiper-slide">
+      <div class="avatar">
+        <img src="./images/skand.jpg">
+
+      </div>
+      <div class="testimonial__info">
+        <h5>Skand Kumar Choubey</h5>
+        <small>Student</small>
+      </div>
+      <div class="testimonial__body">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, deserunt suscipit obcaecati quidem hic at in qui quas veniam laudantium saepe repellendus deleniti dolorem consectetur.</p>
+      </div>
+    </article>
+
+    <article class="testimonial swiper-slide">
+      <div class="avatar">
+        <img src="./images/nishant.jpg">
+
+      </div>
+      <div class="testimonial__info">
+        <h5>Nishant Goyal</h5>
+        <small>Student</small>
+      </div>
+      <div class="testimonial__body">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, deserunt suscipit obcaecati quidem hic at in qui quas veniam laudantium saepe repellendus deleniti dolorem consectetur.</p>
+      </div>
+    </article>
+
+    <article class="testimonial swiper-slide">
+      <div class="avatar">
+        <img src="./images/alok.jpg">
+
+      </div>
+      <div class="testimonial__info">
+        <h5>Alok Tiwari</h5>
+        <small>Student</small>
+      </div>
+      <div class="testimonial__body">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, deserunt suscipit obcaecati quidem hic at in qui quas veniam laudantium saepe repellendus deleniti dolorem consectetur.</p>
+      </div>
+    </article>
+
+    <article class="testimonial swiper-slide">
+      <div class="avatar">
+        <img src="./images/nikhil.jpg">
+
+      </div>
+      <div class="testimonial__info">
+        <h5>Nikhil Rajput</h5>
+        <small>Student</small>
+      </div>
+      <div class="testimonial__body">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, deserunt suscipit obcaecati quidem hic at in qui quas veniam laudantium saepe repellendus deleniti dolorem consectetur.</p>
+      </div>
+    </article>
+
+  </div>
+  <div class="swiper-pagination"></div>
+</section>
+
+<!--========END OF TESTIMONIALS==========-->
+
+
+
+/*============ HEADER =============*/
+
+
+header {
+  position:relative;
+  top:5rem;
+  overflow:hidden;
+  height:70vh;
+  margin-bottom:5rem;
+}
+.header__container{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  align-items:center;
+  gap:5rem;
+  height:100%;
+}
+.header__left p{
+  margin:1rem 0 2.4rem;
+}
+
+<header>
+  <div class="container header__container">
+    <div class="header__left">
+      <h1>Your onestop destination for all the latest buzz at VIT Bhopal !!!</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, veritatis. Facilis quae ea, velit repellendus labore ab ipsam esse blanditiis!</p>
+      <a href="news.html" class="btn btn-primary"> Explore</a>
+
+    </div>
+
+    <div class="header__right">
+      <div class="header__right-image">
+        <img src="./images/header.svg" >
+      </div>
+      
+      
+    </div>
+  </div>
+
+</header>
+
+
+
+.categories{
+  background:var(--color-bg1);
+  height:32rem;
+}
+.categories h1{
+  line-height:1;
+  margin-bottom:3rem;
+}
+.categories__container{
+  display:grid;
+  grid-template-columns: 40% 60%;
+  
+}
+.categories__left{
+  margin-right:4rem;
+}
+.categories__left p{
+  margin: 1rem 0 3rem;
+}
+.categories__right{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:1.2rem;
+}
+.category{
+  background:var(--color-bg2);
+  padding:2rem;
+  border-radius:2rem;
+  transition:var(--transition);
+}
+.category:hover{
+  box-shadow:0 3rem 3rem rgba(0,0,0,0.3);
+  z-index:1;
+}
+.category:nth-child(2) .category__icon{
+  background:var(--color-danger);
+}
+.category:nth-child(3) .category__icon{
+  background:var(--color-success);
+}
+.category:nth-child(4) .category__icon{
+  background:var(--color-warning);
+}
+.category:nth-child(5) .category__icon{
+  background:var(--color-success);
+}
+
+
+.category__icon{
+  background:var(--color-primary);
+  padding:0.7rem;
+  border-radius:0.9rem;
+}
+.category h5{
+  margin:2rem 0 1rem;
+}
+.category p{
+  font-size:0.85rem;
+}

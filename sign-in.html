@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VITB Nexis</title>
+
+  <!-- ICONS CDN  -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+  <!--GOOGLE FONTS-MONTSERRAT-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- swiper js-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+
+  <!-- ...........sing up Form.............. -->
+  <section class="form-section">
+    <div class="container form-section-container">
+      <h2>Sign In</h2>
+      <div class="message-alert message-alert-sucess">
+        <p>This is a success message</p>
+      </div>
+      <form action="">
+        <input type="text" placeholder="Username or Email ">
+
+        <input type="password" placeholder="Password">
+
+        <button type="submit" class="btn"> Sign In</button>
+        <small >Don't have an account ? <a href="sign-up.html">Sign Up</a></small>
+      </form>
+    </div>
+  </section>
+
+
+
+  <script>
+    // JavaScript to handle scroll effect
+    window.addEventListener('scroll', () => {
+      // Adds class window-scroll to nav when scroll position > 0
+      document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0);
+    });
+  </script>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./main.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      // when windown width is >= 600px
+      breakpoints: {
+        600: {
+          slidesPerView: 2
+
+        }
+      }
+    });
+  </script>
+
+
+
+</body>
+
+</html>

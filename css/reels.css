@@ -1,0 +1,115 @@
+/* Base styles for the Reels page */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1C223A; /* Dark background for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #5B4FFF;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: #6A5ACD;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Container for reels */
+.reels-container {
+  display: grid;
+  grid-template-columns: 1fr; /* One column by default (for mobile) */
+  gap: 2rem; /* Add gap between reels */
+  margin: 2rem 1rem;
+}
+
+/* Reel card styles */
+.reel {
+  background-color: #333;
+  border-radius: 0.5rem;
+  padding: 1.5rem; /* Add padding to create card-like appearance */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the video */
+.reel video {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  max-height: 80vh; /* Ensure the video doesn't exceed 80% of the viewport height */
+  object-fit: cover; /* Ensures the video fills the container while maintaining the aspect ratio */
+  border-radius: 0.5rem; /* Rounded corners for the video */
+}
+
+/* Title styling inside each reel */
+.reel-title {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 1.5rem; /* Add more space between the video and title */
+}
+
+/* For better alignment and display on larger screens */
+@media screen and (min-width: 768px) {
+  .reels-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for larger screens */
+    gap: 3rem; /* Increase gap between videos */
+  }
+
+  .reel {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .reels-container {
+    grid-template-columns: repeat(2, 1fr); /* Ensure two columns are maintained */
+    gap: 3rem; /* Maintain larger gap on larger screens */
+  }
+
+  .reel video {
+    object-fit: contain; /* Keep the full video visible on larger screens */
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #5B4FFF;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}

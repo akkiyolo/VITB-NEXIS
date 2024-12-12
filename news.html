@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VITB Nexis</title>
+
+  <!-- ICONS CDN  -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+  <!-- GOOGLE FONTS - MONTSERRAT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    /* Modal Styles */
+    .modal {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      width: 400px;
+      text-align: center;
+    }
+
+    .close {
+      color: #aaa;
+      font-size: 28px;
+      font-weight: bold;
+      position: absolute;
+      top: 10px;
+      right: 20px;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  </style>
+
+  <style>
+    .news {
+      margin-top: 1rem;
+    }
+  </style>
+
+</head>
+
+<body>
+  <nav>
+    <div class="container nav__container">
+      <a href="index.html">
+        <h4>VITB NEXIS</h4>
+      </a>
+      <ul class="nav__menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="reels.html">Reels</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="sign-up.html">Sign-up</a></li>
+        <li>
+          <div class="nav-profile">
+            <div class="profile-img">
+              <img src="images/akshat.jpg" alt="">
+            </div>
+            <ul>
+              <li><a href="">Dashboard</a></li>
+              <li><a href="">Log-out</a></li>
+            </ul>
+          </div>
+        </li>
+
+
+      </ul>
+      <button id="open-menu-btn"> <i class="uil uil-bars"></i></button>
+      <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+
+
+
+    </div>
+  </nav>
+  <!-- ........... Page Search Bar Start........... -->
+  <section class="search-bar">
+    <form class="container search-container">
+      <div>
+        <i class="fa fa-search"></i>
+        <input type="search" placeholder="Search">
+      </div>
+      <button type="submit">Now</button>
+    </form>
+  </section>
+  <!-- ........... Page Search Bar End........... -->
+
+
+
+
+  <section class="news">
+    <h2>"Discover the Pulse of VIT Bhopal: News that Matters!"</h2>
+    <div class="container news__container">
+
+      <article class="news">
+        <div class="news-image">
+          <a href="https://vitbhopal.ac.in/hostel-life/" target="_blank">
+            <img src="./images/VITB-Background.jpeg">
+          </a>
+
+        </div>
+        <div class="news__info">
+          <h4>Campus Scoop: News and Highlights from University</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consectetur amet! Consequuntur quidem dicta
+            perferendis facere.
+          </p>
+        </div>
+
+        <a href="news.html" class="btn btn-primary">Learn more</a>
+      </article>
+
+      <article class="news">
+        <div class="news-image">
+          <a href="https://vitbhopal.ac.in/placement-overview/" target="_blank">
+            <img src="./images/Stat-new-1-1.jpeg">
+          </a>
+
+        </div>
+        <div class="news__info">
+          <h4>Job Watch: Placements & Internships</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consectetur amet! Consequuntur quidem dicta
+            perferendis facere.
+          </p>
+        </div>
+
+        <a href="news.html" class="btn btn-primary">Learn more</a>
+      </article>
+
+      <article class="news">
+        <div class="news-image">
+          <a href="https://vitbhopal.ac.in/allevents/" target="_blank">
+            <img src="./images/hq720.jpg">
+          </a>
+
+        </div>
+        <div class="news__info">
+          <h4>Cultural Chronicles: Club Activities and Events</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consectetur amet! Consequuntur quidem dicta
+            perferendis facere.
+          </p>
+        </div>
+
+        <a href="news.html" class="btn btn-primary">Learn more</a>
+      </article>
+
+      <article class="news">
+        <div class="news-image">
+          <a href="https://vitbhopal.ac.in/phd/" target="_blank">
+            <img src="./images/higherstudies.jpg">
+          </a>
+
+        </div>
+        <div class="news__info">
+          <h4>Research Horizons: Exploring Innovations in Higher Studies</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consectetur amet! Consequuntur quidem dicta
+            perferendis facere.
+          </p>
+        </div>
+
+        <a href="news.html" class="btn btn-primary">Learn more</a>
+      </article>
+
+
+      <article class="news">
+        <div class="news-image">
+          <a href="https://vitbhopal.ac.in/schools-best-engineering-institute/" target="_blank">
+            <img src="./images/academic.png">
+          </a>
+
+        </div>
+        <div class="news__info">
+          <h4>The Academic Dispatch: Essential Updates and Announcements</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consectetur amet! Consequuntur quidem dicta
+            perferendis facere.
+          </p>
+        </div>
+
+        <a href="news.html" class="btn btn-primary">Learn more</a>
+      </article>
+
+
+      <article class="news">
+        <div class="news-image">
+          <a href="https://vitbhopal.ac.in/dsw-physical-education/" target="_blank">
+            <img src="./images/sports3.jpg">
+          </a>
+
+        </div>
+        <div class="news__info">
+          <h4>Fast, Fierce, and Unstoppable: Sports News that Matters!</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, consectetur amet! Consequuntur quidem dicta
+            perferendis facere.
+          </p>
+        </div>
+
+        <a href="news.html" class="btn btn-primary">Learn more</a>
+      </article>
+
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__1">
+        <a href="index.html" class="footer__logo">
+          <h4>VITB NEXIS</h4>
+        </a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsum nobis ratione.</p>
+      </div>
+
+      <div class="footer__2">
+        <h4>Permalinks</h4>
+        <ul class="permalinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__3">
+        <h4>Privacy</h4>
+        <ul class="privacy">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__4">
+        <h4>Contact Us</h4>
+        <div>
+          <p>+91 9696840347</p>
+          <p>akshatshukla069@gmail.com</p>
+        </div>
+
+        <ul class="footer__socials">
+          <li><a href="#"><i class="uil uil-facebook-f"></i></a></li>
+          <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
+          <li><a href="#"><i class="uil uil-twitter"></i></a></li>
+          <li><a href="#"><i class="uil uil-linkedin-alt"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <small>Copyright &copy; VITB NEXIS</small>
+    </div>
+  </footer>
+
+  <script>
+    // JavaScript to handle scroll effect
+    window.addEventListener('scroll', () => {
+      // Adds class window-scroll to nav when scroll position > 0
+      document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0);
+    });
+  </script>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
