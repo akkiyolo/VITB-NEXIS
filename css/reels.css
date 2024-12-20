@@ -11,6 +11,9 @@ header {
   padding: 1rem;
   text-align: center;
 }
+h2{
+  padding-left:42rem;
+}
 
 header h1 {
   color: white;
@@ -67,6 +70,13 @@ nav a:hover {
   object-fit: cover; /* Ensures the video fills the container while maintaining the aspect ratio */
   border-radius: 0.5rem; /* Rounded corners for the video */
 }
+.reel h4 {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 1rem; /* Space between video and title */
+  text-align: center;
+}
+
 
 /* Title styling inside each reel */
 .reel-title {

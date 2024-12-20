@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommended Articles</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav__container">
+      <a href="index.html">
+        <h4>VITB NEXIS</h4>
+      </a>
+      <ul class="nav__menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="reels.html">Reels</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="sign-up.html">Sign-up</a></li>
+        <li>
+          <div class="nav-profile">
+            <div class="profile-img">
+              <img src="images/akshat.jpg" alt="">
+            </div>
+            <ul>
+              <li><a href="./dashboard.html">Dashboard</a></li>
+              <li><a href="">Log-out</a></li>
+            </ul>
+          </div>
+        </li>
+
+
+      </ul>
+      <button id="open-menu-btn"> <i class="uil uil-bars"></i></button>
+      <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+
+
+
+    </div>
+  </nav>
+
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Recommended Articles for "{{ title }}"</h2>
+        <div class="row">
+            {% for article in recommendations %}
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="{{ article.image_url or 'https://via.placeholder.com/150' }}" class="card-img-top" alt="Article Image">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ article.title }}</h5>
+                        <p class="card-text">{{ article.content }}</p>
+                        <p class="card-text"><strong>Category:</strong> {{ article.category }}</p>
+                        <a href="/recommend/{{ article.title }}" class="btn btn-primary">View Recommendations</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
