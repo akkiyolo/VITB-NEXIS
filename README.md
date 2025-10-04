@@ -1,5 +1,8 @@
 # VITB NEXIS: News Aggregator & Recommendation System
 
+<img width="1897" height="946" alt="image" src="https://github.com/user-attachments/assets/2686312c-0404-492e-8535-cd0b148b2db2" />
+
+
 ## 1. Introduction
 
 [cite_start]In a fast-paced academic environment, keeping the college community informed and connected is essential[cite: 11]. [cite_start]Traditional communication methods such as notice boards and emails can be inefficient, leading to missed updates[cite: 13]. [cite_start]VITB Nexis is a news aggregator and recommendation system tailored for a college setting that solves this problem. [cite_start]It curates relevant news, events, and announcements into a single, accessible platform, aiming to foster a more connected and engaged academic community[cite: 15, 17].
@@ -59,3 +62,4 @@ The system uses a content-based filtering approach to recommend news.
 * [cite_start]**Efficient Content Management**: A simplified workflow for administrators to manage news[cite: 78].
 * [cite_start]**Scalability**: A modular design that supports a growing user base and future features[cite: 79].
 * [cite_start]**Continuous Improvement**: A feedback loop enables ongoing refinement of the recommendation model[cite: 80, 82].
+
